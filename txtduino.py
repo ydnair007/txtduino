@@ -8,7 +8,7 @@ try:
     client = TwilioRestClient(settings.twilio_account_sid,
                           settings.twilio_auth_token)
     message = client.sms.messages.create(
-        body="Master File Downloaded and uploaded to Gdrive!",
+        body="File Downloaded and Uploaded to Gdrive!",
         to=settings.your_phone_number,
         from_=settings.your_twilio_number)
 
