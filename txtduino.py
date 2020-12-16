@@ -1,7 +1,6 @@
 import settings
 import sys
 
-from BreakfastSerial import Led, Arduino, Button
 from twilio import TwilioRestException
 from twilio.rest import TwilioRestClient
 
